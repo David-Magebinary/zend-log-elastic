@@ -1,0 +1,26 @@
+{
+  "name": "hayloft/zend-log-elastic",
+  "description": "component for writing log messages to elastic (elasticsearch)",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "zf2",
+    "log",
+    "logging",
+    "writer",
+    "elastic",
+    "elasticsearch"
+  ],
+  "homepage": "https://github.com/hayloft/zend-log-elastic",
+  "autoload": {
+    "psr-4": {
+      "Hayloft\\Log\\": "src/Hayloft/Log"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-log": "~2.5",
+    "psr/log": "~1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
