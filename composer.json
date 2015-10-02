@@ -18,7 +18,8 @@
   },
   "require": {
     "php": ">=5.5",
-    "psr/log": "~1.0"
+    "psr/log": "~1.0",
+    "ruflin/elastica": "~1.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
